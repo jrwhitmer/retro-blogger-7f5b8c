@@ -1,1 +1,3 @@
 my-site/
+# Local Netlify folder
+.netlify

@@ -1,10 +1,10 @@
 [build]
   command = """\
-    pnpm create vite my-site --template react-ts &&\
-    cd my-site &&\
-    pnpm install &&\
-    pnpm add tailwindcss &&\
-    pnpm run build &&\
+    pnpm create vite my-site --template react-ts && \
+    cd my-site && \
+    pnpm install && \
+    pnpm add tailwindcss && \
+    pnpm run build && \
     cd ..
   """
   publish = "my-site/dist"
