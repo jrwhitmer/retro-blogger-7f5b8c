@@ -1,3 +1,6 @@
 {
-  "name": "new-site-from-ai"
+  "name": "new-site-from-ai",
+  "scripts": {
+    "build": "mkdir dist && echo 'done'"
+  }
 }
